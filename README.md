@@ -23,7 +23,7 @@ tick backwards)
 ## Build
  
 ```sh
-cd backwardsClock
+cd BackwardsClock
 mvn compile
 mvn package
 ```
@@ -31,6 +31,6 @@ mvn package
 ## Run Backwards Clock
 
 ```sh
-cd backwardsClock/target
+cd BackwardsClock/target
 java -jar backwardsClock-0.0.1-SNAPSHOT.jar
 ```
