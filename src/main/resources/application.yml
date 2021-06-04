@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: backwards-clock
+
+clock:
+  zoneId: Asia/Singapore
+
+logging:
+  pattern:
+    console: "%d{yyy-MM-dd HH:mm:ss} {%thread} %logger{36} [%X{request.id}] - %msg%n"
+  level:
+    com.nobel: DEBUG
