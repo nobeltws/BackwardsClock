@@ -1,3 +1,4 @@
+
 # Backwards Clock
 
 You have been awarded with a task to build a clock which goes back in time (in other words
@@ -21,15 +22,15 @@ tick backwards)
 
 ## Build
  
----sh
+```sh
 cd backwardsClock
 mvn compile
 mvn package
----
+```
 
 ## Run Backwards Clock
 
----sh
+```sh
 cd backwardsClock/target
 java -jar backwardsClock-0.0.1-SNAPSHOT.jar
----
+```
