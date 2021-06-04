@@ -3,7 +3,7 @@
 You have been awarded with a task to build a clock which goes back in time (in other words
 tick backwards)
 
-##Requirements
+## Requirements
 1. You’re application should accept 1 parameter from the user which is DECREMENT_BY_SECS
 2. As current time increments by 1 second you’re required to decrement time by the number of seconds provided as a parameter.
 3. Add necessary validations and handle exceptions.
@@ -32,3 +32,4 @@ mvn package
 ---sh
 cd backwardsClock/target
 java -jar backwardsClock-0.0.1-SNAPSHOT.jar
+---
